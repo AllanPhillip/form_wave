@@ -61,7 +61,7 @@ body{
 
 .btn:hover {
     background-color: #FFF;
-    color: #000000;
+    color: #000;
 
 }
 
@@ -112,7 +112,7 @@ body{
 
 }
 
-@media (max-width: 800px){
+@media (max-width: 800px) {
 
     .container h1 {
         font-size: 25px; 
@@ -123,7 +123,7 @@ body{
     .form-control {
     position: relative;
     margin: 10px 0 20px;
-    width: 175px;
+    width: 100%;
     }
 
     .form-control input{
@@ -136,14 +136,14 @@ body{
 
     .form-control label span {
     display: inline-block; 
-    font-size: 14px;
+    font-size: 12px;
     min-width: 2px;
     transition: .3s cubic-bezier(.68, -.55, .265, 1.55);
     }
 
     .btn {
     padding: 10px;
-    font-size: 12px;
+    font-size: 13px;
     border: 0;
     border-radius: 5px; 
     }
